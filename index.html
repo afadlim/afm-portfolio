@@ -16,7 +16,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-white nav-bar">
+    <nav class="navbar navbar-expand-lg bg-white nav-bar sticky-lg-top">
         <div class="container">
             <a class="navbar-brand fs-4 fw-bold" href="#">AFM</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -45,13 +45,15 @@
     <section id="home" class="home container">
         <div class="row d-flex align-items-center ">
             <div class="col-8">
-                <h3 class="fw-semibold ">Hi ! I am</h3>
-                <h1 class="fw-bold ">A. Fadli Mukhlis</h1>
-                <p>I am Software Engineer based in Indonesia</p>
-                <a class="bt btn" href="./images/potrait.png" download>Resume</a>
+                <div class="w-100">
+                    <h3 class="fw-semibold ">Hi ! I am</h3>
+                    <h1 class="fw-bold ">A. Fadli Mukhlis</h1>
+                    <p>I am Software Engineer based in Indonesia</p>
+                    <a class="bt btn" href="./images/potrait.png" download>Resume</a>
+                </div>
             </div>
             <div class="col-4">
-                <img src="./images/potrait.png" alt="Potrait">
+                <img class="w-100" src="./images/potrait.png" alt="Potrait">
             </div>
         </div>
         <div class="arrow w-100 d-flex align-items-center flex-column mt-5">
@@ -112,7 +114,24 @@
     </section>
 
     <section id="work" class="work container">
-
+        <div class="row d-flex align-items-center gap-5">
+            <p class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dignissimos dolores nostrum
+                accusantium neque veniam fugiat reprehenderit odio, nisi distinctio obcaecati quaerat. Nulla itaque
+                consequuntur error dolorem! Repudiandae aperiam officiis quaerat maxime voluptatum ipsum similique
+                quisquam! Dolor, assumenda accusamus. Recusandae est maxime eaque sapiente saepe animi porro, id debitis
+                molestias.</p>
+            <div class="col img">
+                <div id="work-1" class="item">
+                    <img src="./images/work-1.png" alt="Work 1">
+                </div>
+                <div id="work-2" class="item">
+                    <img src="./images/work-2.png" alt="Work 2">
+                </div>
+                <div id="work-3" class="item">
+                    <img src="./images/work-3.png" alt="Work 3">
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="contact" class="contact container">
