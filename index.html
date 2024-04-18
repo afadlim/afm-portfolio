@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 
-
+    <!-- Bootstrap 5.3.3 -->
     <link href="./bootstrap-5.3.3/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Local css -->
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
@@ -63,7 +64,8 @@
     </section>
 
     <section id="about" class="about container">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit impedit laudantium blanditiis,
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit impedit
+            laudantium blanditiis,
             debitis quis cupiditate maxime deleniti excepturi omnis pariatur quam ipsam fuga sapiente nesciunt veritatis
             eaque saepe minima quos reiciendis at deserunt! Possimus cum aperiam enim ea, veniam vel non quas ratione
             assumenda facilis. Atque veniam quasi est ratione?</p>
@@ -115,13 +117,14 @@
 
     <section id="work" class="work container">
         <div class="row d-flex align-items-center gap-5">
-            <p class="col-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dignissimos dolores
+            <p class="col-md text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dignissimos
+                dolores
                 nostrum
                 accusantium neque veniam fugiat reprehenderit odio, nisi distinctio obcaecati quaerat. Nulla itaque
                 consequuntur error dolorem! Repudiandae aperiam officiis quaerat maxime voluptatum ipsum similique
                 quisquam! Dolor, assumenda accusamus. Recusandae est maxime eaque sapiente saepe animi porro, id debitis
                 molestias.</p>
-            <div class="col-lg img">
+            <div class="col-md img">
                 <div id="work-1" class="item">
                     <img src="./images/work-1.png" alt="Work 1">
                 </div>
@@ -136,13 +139,57 @@
     </section>
 
     <section id="contact" class="contact container">
-
+        <div class="row d-flex align-items-center gap-5">
+            <div class="col-md">
+                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quibusdam
+                    temporibus error itaque sunt
+                    aut ducimus laudantium inventore dignissimos, repellat in omnis hic ipsa, architecto nemo, sed atque
+                    consequatur earum quo doloremque harum molestias aspernatur. Reprehenderit, tempora earum, nostrum
+                    facilis quam, iusto recusandae at aliquam ipsa consectetur doloribus ea id?</p>
+                <div class="row">
+                    <div class="col-sm d-flex align-items-center">
+                        <img src="./images/Facebook.svg" alt="Facebook Icon">
+                        <p>A Fadli M</p>
+                    </div>
+                    <div class="col-sm d-flex align-items-center">
+                        <img src="./images/Instagram.svg" alt="Instagram Icon">
+                        <p>@4fadlim</p>
+                    </div>
+                    <div class="col-sm d-flex align-items-center">
+                        <img src="./images/Twitter.svg" alt="Twitter Icon">
+                        <p>@4fadlim</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <form class="form" onsubmit="onFormSubmit(event)">
+                    <div class="mb-3">
+                        <label for="imp_email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="imp_email" placeholder="example@gmail.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="imp_subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="imp_subject" placeholder="Your Subject">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="imp_message">Message</label>
+                        <textarea class="form-control" id="imp_message" rows="3" placeholder="Youre Message"></textarea>
+                    </div>
+                    <div class="d-flex justify-content-center mt-5">
+                        <button type="submit" class="btn bt">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </section>
 
+    <!-- Bootstrap 5.3.3 -->
     <script src="./bootstrap-5.3.3/js/bootstrap.bundle.min.js"></script>
 
+    <!-- jQuery 3.7.1 -->
     <script src="./js/jquery-3.7.1.js"></script>
 
+    <!-- Local Javascript -->
     <script src="./js/main.js"></script>
 
 </body>

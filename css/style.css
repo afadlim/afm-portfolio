@@ -16,14 +16,18 @@ section::before {
   left: -30px;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .btn.bt {
-  border: 3px solid black;
+  border: 2px solid black;
   border-radius: 32px;
 }
 
 .btn.bt:hover,
 .btn.bt.active {
-  border: 3px solid black;
+  border: 2px solid black;
   background-color: black;
   color: white;
 }
@@ -125,13 +129,28 @@ section::before {
   content: "Desktop Project";
 }
 
+.contact::before {
+  content: "Contact";
+}
+
+.contact .form {
+  border: 1px solid black;
+  padding: 32px 24px;
+}
+
+.contact .form label {
+  font-weight: 700;
+}
+
 @keyframes upDown {
   0% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(10px);
   }
+
   100% {
     transform: translateY(0);
   }
