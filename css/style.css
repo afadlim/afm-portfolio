@@ -44,6 +44,10 @@ section::before {
   font-size: 48px;
 }
 
+.home .image {
+  width: 100%;
+}
+
 .home .arrow img {
   width: 64px;
 }
@@ -140,6 +144,21 @@ section::before {
 
 .contact .form label {
   font-weight: 700;
+}
+
+/* md */
+@media only screen and (max-width: 768px) {
+  .home .image {
+    width: 50%;
+  }
+}
+
+/* sm */
+@media only screen and (max-width: 576px) {
+  section::before {
+    font-size: 64px;
+    left: 0px;
+  }
 }
 
 @keyframes upDown {
